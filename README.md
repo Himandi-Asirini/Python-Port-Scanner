@@ -32,6 +32,15 @@ Service detection
 ### Version 5
 Save scan results to a text file
 
+### Version 6
+Scan duration measurement
+
+### Version 7
+Input validation and error handling
+
+### Version 8
+Hostname resolution and IP address display
+
 ## Learning Outcomes
 This project helped me understand:
 - TCP/IP Networking
