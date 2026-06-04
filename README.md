@@ -3,12 +3,20 @@
 A Python-based port scanner developed as part of my cybersecurity learning journey.
 
 ## Features
-- Scan custom targets (IP address or hostname)
-- Scan custom port ranges
-- Detect open ports
-- Identify common services (SMTP, HTTP, HTTPS, SSH, etc.)
-- Display scan timestamps
-- Save scan results to a text file
+* Scan custom targets (IP address or hostname)
+* Scan common ports
+* Scan custom port ranges
+* Detect open ports
+* Identify common services (SSH, HTTP, HTTPS, SMTP, etc.)
+* Perform banner grabbing
+* Display resolved IP addresses
+* Measure scan duration
+* Generate scan statistics
+* Save results to TXT files
+* Export results to CSV files
+* Input validation and error handling
+* Interactive menu system
+
 
 ## Technologies Used
 - Python
@@ -40,6 +48,38 @@ Input validation and error handling
 
 ### Version 8
 Hostname resolution and IP address display
+
+### Version 9
+
+Interactive menu system
+
+* Scan Common Ports
+* Custom Port Scan
+* Exit option
+
+### Version 10
+
+Banner grabbing
+
+* Retrieve service banners from open ports
+* Display software and version information when available
+
+### Version 11
+
+Scan summary statistics
+
+* Total ports scanned
+* Total open ports found
+* Total closed ports
+* Scan duration measurement
+
+### Version 12
+
+CSV export support
+
+* Export scan results to CSV format
+* Save port, service, and status information
+* Compatible with Microsoft Excel and other spreadsheet tools
 
 ## Learning Outcomes
 This project helped me understand:
