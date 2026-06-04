@@ -1,6 +1,6 @@
 # Python Port Scanner
 
-A Python-based port scanner developed as part of my cybersecurity learning journey.
+Python Port Scanner featuring service detection, banner grabbing, hostname resolution, scan statistics, and TXT/CSV export functionality.
 
 ## Features
 * Scan custom targets (IP address or hostname)
